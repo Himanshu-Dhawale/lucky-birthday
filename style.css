@@ -1,0 +1,61 @@
+body{
+  background-image: url('https://media.giphy.com/media/M1D1p6izhybA7xEcan/giphy.gif?cid=ecf05e47joapmybxcr3pmpkig1242c5kirahe7f8kje6tqnt&rid=giphy.gif&ct=g');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1{
+    text-align: center; 
+    /* text-decoration-line: underline; */
+    text-shadow: 10px;
+    text-decoration-color: rgb(125, 97, 151);  
+    font-size: 250%; 
+    font-style: inherit;
+    color: #fec5bb;
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+}
+
+label,input{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: larger;
+  color: #fec5bb;
+}
+
+
+input{
+  margin-bottom: 0.5rem;
+  width: 70%;
+  background-color: #2a9d8f;
+  
+}
+
+#check-number{
+  display: block;
+  margin-top: 1rem;
+  margin: auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #ffe8d6
+  
+}
+ 
+#check-number:hover{
+  background-color: #6b705c;
+}
+
+
+#output-box{
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  color: #fec5bb;
+}
